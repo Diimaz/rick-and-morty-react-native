@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Rick And Morty",
+    "slug": "RickAndMorty",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon-rick-and-morty-android.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/RickAndMortyLogoSplash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "assets/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon-rick-and-morty-android.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.diimazC.rickandmorty",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/icon-rick-and-morty-web.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e03cf6f9-0e39-4f5d-8800-c168908f4d86"
+      }
+    }
+  }
+}
